@@ -10,7 +10,7 @@
        * [3.1."快速入门"体验提升](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/Improved_Getting_Started_Experience.md)
        * [3.2.移除过时的包与方法](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/Removed_Deprecated_Packages_and_Methods.md)
        * [3.3.Java 6/7/8](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/java_678.md)
-       * [Java EE 6/7](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/java_ee_67.md)
+       * [3.4.Java EE 6/7](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/java_ee_67.md)
 * 第三章：技术内幕
 * 第四章：数据交互
 * 第五章：表现层技术
