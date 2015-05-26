@@ -7,6 +7,6 @@ Spring Framework 4.x中文翻译
 
 [@wadezyj@gmail.com](https://github.com/wadezyj)
 
-有任何的问题请在issue上提出：
+对于本翻译作品中有任何的问题请在issue上提出：
 
 [issue](https://github.com/sunrh/spring-reference-chinese/issues)
