@@ -5,8 +5,8 @@ Spring Framework 4.x中文翻译
 
 特别感谢以下参与翻译工作的默默工作者：
 
-@wadezyj@gmail.com
+[@wadezyj@gmail.com](https://github.com/wadezyj)
 
 有任何的问题请在issue上提出：
 
-issue
+[issue](https://github.com/sunrh/spring-reference-chinese/issues)
