@@ -1,4 +1,4 @@
-# Java EE 6/7
+# 3.4.Java EE 6/7
 
 Java EE 6 或以上的版本是Spring4的基线, JPA2.0和Servlet3.0规范对Spring4有着特殊的意义。为了保持对Google App Engine以及旧版本服务器的兼容,Spring4也可以部署在 Servlet2.5的环境。但是我们强烈的建议您使用Servlet3.0+。
 
