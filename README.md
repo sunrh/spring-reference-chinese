@@ -5,7 +5,7 @@ Spring Framework 4.x中文翻译
 
 特别感谢以下参与翻译工作的默默工作者：
 
-[@wadezyj@gmail.com](https://github.com/wadezyj)
+[@wadezyj](https://github.com/wadezyj)
 
 对于本翻译作品中有任何的问题请在issue上提出：
 
