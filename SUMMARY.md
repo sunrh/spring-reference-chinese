@@ -7,6 +7,7 @@
        * [2.1.依赖注入与控制反转](overview_of_springframework/introduction_to_the_spring_framework/dependency_injection_and_inversion_of_control.md)
 * [第二章：Spring框架4.x新特性](what’s_new_in_spring_framework_4.x/what’s_new_in_spring_framework_4.x.md)
    * [3.Spring4.0中的新特性与改进](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/New_Features_and_Enhancements_in_Spring_Framework_4.0.md)
+       * 3.1."快速入门"体验提升
 * 第三章：技术内幕
 * 第四章：数据交互
 * 第五章：表现层技术
