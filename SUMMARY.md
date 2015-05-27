@@ -14,7 +14,7 @@
        * [3.5.使用Groovy DSL配置Bean](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/Groovy_Bean_Definition_DSL.md)
        * [3.6.内核改进](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/Core_Container_Improvements.md)
        * [3.7.Web强化](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/General_Web_Improvements.md)
-       * 3.8.WebSocket, SockJS, 以及STOMP Messaging
+       * [3.8.WebSocket, SockJS, 以及STOMP Messaging](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/websocket_sockjs_and_stomp_messaging.md)
 * 第三章：技术内幕
 * 第四章：数据交互
 * 第五章：表现层技术
