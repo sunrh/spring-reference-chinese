@@ -27,7 +27,7 @@
        * [5.1.IOC以及Beans的介绍](Core_Technologies/The_IoC_container/Introduction_to_the_Spring_IoC_container_and_beans.md)
        * [5.2.容器](Core_Technologies/The_IoC_container/Container_overview.md)
            * [5.2.1.配置元数据](Core_Technologies/The_IoC_container/Container_overview/Configuration metadata.md)
-           * 5.2.2.实例化容器
+           * [5.2.2.实例化容器](Core_Technologies/The_IoC_container/Container_overview/Instantiating a container.md)
 * 第四章：数据交互
 * 第五章：表现层技术
 * 第六章：JavaEE集成
