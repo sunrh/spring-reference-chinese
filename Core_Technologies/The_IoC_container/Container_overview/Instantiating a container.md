@@ -62,4 +62,4 @@ ApplicationContext context =
     <bean id="bean2" class="..."/>
 </beans>
 ```
-在上面的例子中，我们从3个外部文件：services.xml、 messageSource.xml及themeSource.xml 来加载bean定义。这里采用的都是相对路径，因此，此例中的services.xml 一定要与导入文件放在同一目录或类路径，而messageSource.xm l和themeSource.xml的文件位置必须放在导入文件所 在目录下的resources目录中。正如你所看到的那样，开头的斜杠 ‘/’实际上可忽略。因此不用斜杠‘/’可能会更好一点。根据Spring XML配置文件的 Schema(或DTD)，被导入文件必须是完全有效的XML bean定义文件，且根节点必须为 <beans/> 元素。
+在上面的例子中，我们从3个外部文件：services.xml、 messageSource.xml及themeSource.xml 来加载bean定义。这里采用的都是相对路径，因此，此例中的services.xml 一定要与导入文件放在同一目录或类路径，而messageSource.xm l和themeSource.xml的文件位置必须放在导入文件所 在目录下的resources目录中。正如你所看到的那样，开头的斜杠 ‘/’实际上可忽略。因此不用斜杠‘/’可能会更好一点。根据Spring XML配置文件的 Schema(或DTD)，被导入文件必须是完全有效的XML bean定义文件，且根节点必须为 <beans/>元素。
