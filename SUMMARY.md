@@ -15,7 +15,7 @@
        * [3.6.内核改进](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/Core_Container_Improvements.md)
        * [3.7.Web强化](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/General_Web_Improvements.md)
        * [3.8.WebSocket, SockJS, 以及STOMP Messaging](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/websocket_sockjs_and_stomp_messaging.md)
-       * 3.9.测试改进
+       * [3.9.测试改进](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/Testing_Improvements.md)
 * 第三章：技术内幕
 * 第四章：数据交互
 * 第五章：表现层技术
