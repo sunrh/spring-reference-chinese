@@ -7,4 +7,5 @@
 * 在注入Bean的时候，我们可以使用@Lazy实现延迟注入，同样适用于@Bean。
 * 当你使用Java的配置方式(非XML)，你可以使用@Description来告诉其他开发人员一些关于该类的介绍。
 * @Conditional类似于@Profile用于[有条件的过滤Beans]()，但比Profile好的是可以定义策略来切换不同环境。
-* [基于CGLIB的代理类]()不在需要默认的构造方法。这个支持是由 [objenesis](http://code.google.com/p/objenesis/)库提供。这个库重新打包到 Spring 框架中，作为Spring框架的一部分发布。通过这个策略，针对代理实例被调用没有构造可言了。
+* [基于CGLIB的代理类]()不再要求必须有空的构造函数了。这是由于内联了 [objenesis](http://code.google.com/p/objenesis/)，这个包被重新打包并作为Spring的一部分发布。
+* Spring现在支持时区的管理，如LocaleContext。
