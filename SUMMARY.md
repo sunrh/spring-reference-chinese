@@ -21,7 +21,7 @@
        * [4.2.缓存改进](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.1/Caching_Improvements.md)
        * [4.3.Web改进](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.1/Web_Improvements.md)
        * [4.4.WebSocket STOMP 消息改进](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.1/WebSocket_STOMP_Messaging_Improvements.md)
-       * 4.5.测试改进
+       * [4.5.测试改进](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.1/Testing_Improvements.md)
 * 第三章：技术内幕
 * 第四章：数据交互
 * 第五章：表现层技术
