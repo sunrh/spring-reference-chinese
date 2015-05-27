@@ -13,7 +13,7 @@
        * [3.4.Java EE 6/7](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/java_ee_67.md)
        * [3.5.使用Groovy DSL配置Bean](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/Groovy_Bean_Definition_DSL.md)
        * [3.6.内核改进](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/Core_Container_Improvements.md)
-       * 3.7.Web强化
+       * [3.7.Web强化](what’s_new_in_spring_framework_4.x/New_Features_and_Enhancements_in_Spring_Framework_4.0/General_Web_Improvements.md)
 * 第三章：技术内幕
 * 第四章：数据交互
 * 第五章：表现层技术
