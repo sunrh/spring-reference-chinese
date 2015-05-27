@@ -25,7 +25,7 @@
 * [第三章：技术内幕](Core_Technologies/Core_Technologies.md)
    * [5.IOC容器](Core_Technologies/The_IoC_container/The_IoC_container.md)
        * [5.1.IOC以及Beans的介绍](Core_Technologies/The_IoC_container/Introduction_to_the_Spring_IoC_container_and_beans.md)
-       * 5.2.容器
+       * [5.2.容器](Core_Technologies/The_IoC_container/Container_overview.md)
 * 第四章：数据交互
 * 第五章：表现层技术
 * 第六章：JavaEE集成
