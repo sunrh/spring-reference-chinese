@@ -34,6 +34,7 @@
            * [5.3.2.实例化Bean](Core_Technologies/The_IoC_container/Bean overview/Instantiating beans.md)
        * [5.4.依赖](Core_Technologies/The_IoC_container/Dependencies/Dependencies.md)
            * [5.4.1.依赖注入](Core_Technologies/The_IoC_container/Dependencies/Dependency injection.md)
+           * 5.4.2.依赖配置详解
 * 第四章：数据交互
 * 第五章：表现层技术
 * 第六章：JavaEE集成
