@@ -30,7 +30,7 @@
            * [5.2.2.实例化容器](Core_Technologies/The_IoC_container/Container_overview/Instantiating a container.md)
            * [5.2.3.使用容器](Core_Technologies/The_IoC_container/Container_overview/Using the container.md)
            * [5.3.Bean介绍](Core_Technologies/The_IoC_container/Container_overview/Bean overview.md)
-               * 5.3.1.Bean别名
+               * [5.3.1.Bean别名](Core_Technologies/The_IoC_container/Container_overview/Bean overview/Naming beans.md)
 * 第四章：数据交互
 * 第五章：表现层技术
 * 第六章：JavaEE集成
