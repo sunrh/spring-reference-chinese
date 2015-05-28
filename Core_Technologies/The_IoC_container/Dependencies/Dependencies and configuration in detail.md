@@ -229,3 +229,69 @@ public class Foo {
 </beans>
 ```
 在foo bean的accounts属性被注入之前，通过反射，利用强类型`Map<String, Float>`的泛型信息，Spring的底层类型转换机制将会把各种value元素值转换为Float类型，因此字符串9.99、2.75及3.99就会被转换为实际的Float类型。
+
+### Null与空字符串
+properties中的空参数，Spring将会当做空字符串，如下：
+```
+<bean class="ExampleBean">
+    <property name="email" value=""/>
+</bean>
+```
+以上代码等同于如下的Java代码:
+```
+exampleBean.setEmail("")
+```
+`<null/>`也会作为null处理：
+```
+<bean class="ExampleBean">
+    <property name="email">
+        <null/>
+    </property>
+</bean>
+```
+同：
+```
+exampleBean.setEmail(null)
+```
+
+### 简洁的XML配置
+我们现在可以使用P命名空间来简化我们的配置：
+```
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="classic" class="com.example.ExampleBean">
+        <property name="email" value="foo@bar.com"/>
+    </bean>
+
+    <bean name="p-namespace" class="com.example.ExampleBean"
+        p:email="foo@bar.com"/>
+</beans>
+```
+上面的代码中，我们用p:email替代了property name="email"，接下来演示其他情况：
+```
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="john-classic" class="com.example.Person">
+        <property name="name" value="John Doe"/>
+        <property name="spouse" ref="jane"/>
+    </bean>
+
+    <bean name="john-modern"
+        class="com.example.Person"
+        p:name="John Doe"
+        p:spouse-ref="jane"/>
+
+    <bean name="jane" class="com.example.Person">
+        <property name="name" value="Jane Doe"/>
+    </bean>
+</beans>
+```
+在上面的代码中，我们使用了特殊的格式来声明引用关系“p:spouse-ref="jane"”等同于`<property name="spouse" ref="jane"/>`
