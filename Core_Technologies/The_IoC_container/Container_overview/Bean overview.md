@@ -1,4 +1,4 @@
-# 5.3.Bean总览
+# 5.3.Bean介绍
 
 Spring IoC容器将管理一个或多个bean，这些bean 将通过配置文件中的bean定义被创建(在XML格式中为`<bean/>`元素)。
 
