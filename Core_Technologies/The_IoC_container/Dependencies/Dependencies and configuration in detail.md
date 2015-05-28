@@ -228,4 +228,4 @@ public class Foo {
     </bean>
 </beans>
 ```
-
+在foo bean的accounts属性被注入之前，通过反射，利用强类型`Map<String, Float>`的泛型信息，Spring的底层类型转换机制将会把各种value元素值转换为Float类型，因此字符串9.99、2.75及3.99就会被转换为实际的Float类型。
