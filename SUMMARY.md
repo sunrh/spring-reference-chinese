@@ -29,6 +29,7 @@
            * [5.2.1.配置元数据](Core_Technologies/The_IoC_container/Container_overview/Configuration metadata.md)
            * [5.2.2.实例化容器](Core_Technologies/The_IoC_container/Container_overview/Instantiating a container.md)
            * [5.2.3.使用容器](Core_Technologies/The_IoC_container/Container_overview/Using the container.md)
+           * 5.3.Bean总览
 * 第四章：数据交互
 * 第五章：表现层技术
 * 第六章：JavaEE集成
