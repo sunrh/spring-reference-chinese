@@ -254,7 +254,7 @@ exampleBean.setEmail("")
 exampleBean.setEmail(null)
 ```
 
-### 简洁的XML配置
+### 简洁的XML配置-p命名空间
 我们现在可以使用P命名空间来简化我们的配置：
 ```
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -295,3 +295,41 @@ exampleBean.setEmail(null)
 </beans>
 ```
 在上面的代码中，我们使用了特殊的格式来声明引用关系“p:spouse-ref="jane"”等同于`<property name="spouse" ref="jane"/>`
+
+### 简洁的XML配置-c命名空间
+我可以用c命名空间来简化构造器的参数传递，过程类似于p命名空间：
+```
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:c="http://www.springframework.org/schema/c"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bar" class="x.y.Bar"/>
+    <bean id="baz" class="x.y.Baz"/>
+
+    <!-- traditional declaration -->
+    <bean id="foo" class="x.y.Foo">
+        <constructor-arg ref="bar"/>
+        <constructor-arg ref="baz"/>
+        <constructor-arg value="foo@bar.com"/>
+    </bean>
+
+    <!-- c-namespace declaration -->
+    <bean id="foo" class="x.y.Foo" c:bar-ref="bar" c:baz-ref="baz" c:email="foo@bar.com"/>
+
+</beans>
+```
+另外还可以通过指定下标来传递：
+```
+<!-- c-namespace index declaration -->
+<bean id="foo" class="x.y.Foo" c:_0-ref="bar" c:_1-ref="baz"/>
+```
+### 组合属性名称
+当设置bean的组合属性时，除了最后一个属性外，只要其他属性值不为null，组合或嵌套属性名是完全合法的。例如，下面bean的定义：
+```
+<bean id="foo" class="foo.Bar">
+    <property name="fred.bob.sammy" value="123" />
+</bean>
+```
+foo bean有个fred属性，此属性有个bob属性，而bob属性又有个sammy属性，最后把sammy属性设置为123。为了让此定义能工作，foo的fred属性及fred的bob属性在bean被构造后都必须非空，否则将抛出NullPointerException异常。
